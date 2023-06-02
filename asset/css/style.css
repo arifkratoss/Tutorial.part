@@ -1,0 +1,165 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrap{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav>li{
+    margin-left: 15px;
+   
+}
+.nav>li>a{
+    text-decoration: none;
+    color: #202020;
+}
+.nav_btn{
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo_img{
+    display: block;
+    background-image: url(image/Group\ 2logo.svg);
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+}
+.logo_text{
+    font-size: 24px;
+    color: #202020;
+}
+.title-main{
+    font-size: 56px;
+    color:#202020 ;
+    font-weight: 700;
+}
+.text-main{
+    font-size: 32px;
+    line-height: 1.5;
+    color: #4F4F4F;
+}
+.button{
+    background-color: #5528FF;
+    border-radius: 5px;
+    padding: 15px 45px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+}
+.page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.page-top{
+    border-top: 1px solid #C2C2C2;
+    margin-top: 100px;
+
+}
+.page h2{
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color:#ffff;
+    padding: 5px 15px;
+    color: #C2C2C2;
+}
+.service{
+    display: grid;
+   grid-template:50% 50% / 50% 50% ;
+}
+.service-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.service_img{
+    flex-basis: 100px;
+    text-align: center;
+}
+.service_text{
+    flex-basis: calc(100%-120px);
+}
+.service h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.service p{
+    font-size: 14px;
+    color:#B2B2B2 ;
+    line-height: 1.5;
+}
+.clients{
+    display: grid;
+    grid-template:120px 120px /repeat(4,25%) ;
+    text-align: center;
+    grid-row-gap:40px;
+}
+.team{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3 ,33%);
+    grid-row-gap:40px;
+}
+.team-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-item img{
+    margin-right: 20px;
+}
+.team-tem>div{
+    flex-basis: calc(100%-100%);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .warp-2{
+  display: flex;
+  gap: 30px;
+}
